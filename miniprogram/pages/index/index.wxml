@@ -26,6 +26,13 @@
   </view>
 
 
+  <!-- 进入闺蜜团冲浪的世界 -->
+  <view class="uploader">
+     <navigator url="../activities/activities" open-type="navigate" class="uploader-text">
+      <text>进入闺蜜团冲浪的世界</text>
+      </navigator>
+  </view>
+
   <!-- 操作数据库 -->
   <view class="uploader">
     <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">

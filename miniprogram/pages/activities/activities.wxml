@@ -1,0 +1,17 @@
+<!--miniprogram/pages/activities/activities.wxml-->
+<view class='weui-cell-third'>
+  <block wx:for="{{activities}}" wx:key="*this">
+    <view class='weui-cell-list'>
+      <view class='weui-cell-name'>{{item.date}}</view>
+      <view class='weui-cell-circle'></view>
+      <view class='weui-cell-line'>
+ 
+        <view class='weui-cell-time'>{{item.subject}}</view>
+        <view class='weui-cell-event'>{{item.place}}</view>
+      </view>
+ 
+    </view>
+ 
+  </block>
+</view>
+
