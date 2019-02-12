@@ -2,19 +2,21 @@
 <view class="container">
 
   <!-- 用户 openid -->
-  <view class="userinfo">
-    <button 
+<view class="userinfo">
+   <button 
       open-type="getUserInfo" 
       bindgetuserinfo="onGetUserInfo"
       class="userinfo-avatar"
       style="background-image: url({{avatarUrl}})"
     ></button>
     <view>
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
-    </view>
-  </view>
-
-
+    <button wx:if="{{!logged && userInfo}}" open-type="getUserInfo"  bindgetuserinfo="onGetUserInfo" class="userinfo-nickname"> 获取头像昵称 </button>
+    <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  
+</view>
+</view>
   <!-- 上传图片 -->
   <view class="uploader">
     <view class="uploader-text" bindtap="doUpload">
@@ -31,20 +33,6 @@
      <navigator url="../activities/activities" open-type="navigate" class="uploader-text">
       <text>进入闺蜜团冲浪的世界</text>
       </navigator>
-  </view>
-
-  <!-- 操作数据库 -->
-  <view class="uploader">
-    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
-      <text>前端操作数据库</text>
-    </navigator>
-  </view>
-
-  <!-- 新建云函数 -->
-  <view class="uploader">
-    <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
-      <text>快速新建云函数</text>
-    </navigator>
   </view>
 
 </view>

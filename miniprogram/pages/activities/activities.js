@@ -8,8 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    activities: [],
-    openid:'o2qXq0GG2vJ0FWd2T0PjsYD42hVI'
+    activities: []
   },
 
   /**

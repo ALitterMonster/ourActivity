@@ -5,39 +5,53 @@
 }
 .weui-cell-list{
   background: #fff;
-  margin: 5px 50px 5px 50px;
+  margin: 5px 10px 5px 10px;
 }
 .weui-cell-line{
 /* width: 100px; */
-margin-left: 5px;
+margin-left: 10px;
   border-left: 1px solid #ddd;
-  height: 100px; 
-  background: #fff
+  height: 130px; 
+  background: #fff;
 }
 .weui-cell-circle{
   border: 1px solid #000;
   border-radius: 5px;
   width: 10px;
   height: 10px;
+  margin-left: 5px;
   border-color: blue;
+}
+.weui-cell-timeline{
+  float: left
+}
+.weui-cell-content{
+  float: left
 }
 .weui-cell-time{
   /* width: 50px; */
   float: left;
   font-size:14px;
-  padding-left: 15px;
-  width: 72px;
+  padding: 0px 0px;
+  width: 90px;
  
 }
-.weui-cell-event{
- 
-  padding-top: 15px;
-  padding-left: 15px;
+.weui-cell-place{
+  font-size:13px;
+  padding-top: 5px;
+  padding-left: 10px;
 }
-.weui-cell-name{
-font-size:14px;
+.weui-cell-subject{
+font-size:15px;
 height:23px;
-margin-left: 100px;
+margin-left: 10px;
  
- 
+}
+.weui-cell-cover{
+font-size:15px;
+height:80px;
+width:100px;
+margin-left: 10px;
+margin-top: 5px;
+  background-color: #fff;
 }
