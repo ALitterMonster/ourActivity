@@ -11,7 +11,7 @@
 /* width: 100px; */
 margin-left: 10px;
   border-left: 1px solid #ddd;
-  height: 130px; 
+  height: 120px; 
   background: #fff;
 }
 .weui-cell-circle{
@@ -23,7 +23,7 @@ margin-left: 10px;
   border-color: blue;
 }
 .weui-cell-timeline{
-  float: left
+  float: left;
 }
 .weui-cell-content{
   float: left
@@ -40,6 +40,7 @@ margin-left: 10px;
   font-size:13px;
   padding-top: 5px;
   padding-left: 10px;
+  color: #E0E0E0
 }
 .weui-cell-subject{
 font-size:15px;
@@ -53,5 +54,8 @@ height:80px;
 width:100px;
 margin-left: 10px;
 margin-top: 5px;
-  background-color: #fff;
+background-color: #fff;
+}
+.weui-cell-clear{
+  clear: both
 }

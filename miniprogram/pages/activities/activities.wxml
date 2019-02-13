@@ -12,7 +12,7 @@
         <image class='weui-cell-cover' src='{{item.cover}}'mode='aspectFit'></image>
         <view class='weui-cell-place'>{{item.place}}</view>
       </view>
- 
+      <view class='weui-cell-clear'></view>
     </view>
  
   </block>
